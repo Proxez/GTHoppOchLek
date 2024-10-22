@@ -24,8 +24,7 @@ internal class Program
         Console.WriteLine("Anders här!");
         Console.WriteLine("Anders Branch");
         GinOchTonic();
-        foreach(var g in ginSorter)
-            Console.WriteLine(g);
+        GinOchLek();
         
 
         Console.WriteLine("Samis branch");
@@ -37,5 +36,10 @@ internal class Program
     {
         Console.WriteLine("Vilken är den bästa gin sorten?");
         return gin = Console.ReadLine();
+    }
+    static void GinOchLek()
+    {
+        foreach (var g in ginSorter)
+            Console.WriteLine(g);
     }
 }
