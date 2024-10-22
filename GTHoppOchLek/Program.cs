@@ -7,5 +7,10 @@ internal class Program
         Console.WriteLine("Hejsan allihopa!");
         Console.WriteLine("Viktor här!");
         Console.WriteLine("Hej, har du nån mer GT?");
+        
+        
+        
+        
+        Console.WriteLine("Test test");
     }
 }
