@@ -12,6 +12,37 @@ internal class Program
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         Console.WriteLine("Pull = hämta, Push = skicka in, fetch = 'kolla om det finns något att hämta'");
     }
 }
