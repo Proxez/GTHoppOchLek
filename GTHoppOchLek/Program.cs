@@ -3,7 +3,7 @@
 internal class Program
 {
     static string? gin;
-    List<string> ginSorter = new List<string>()
+    static List<string> ginSorter = new List<string>()
     {
         "Hernö",
         "Tanqueray",
@@ -24,8 +24,9 @@ internal class Program
         Console.WriteLine("Anders här!");
         Console.WriteLine("Anders Branch");
         GinOchTonic();
-
-        Console.WriteLine(gin);
+        foreach(var g in ginSorter)
+            Console.WriteLine(g);
+        
 
         Console.WriteLine("Samis branch");
 
