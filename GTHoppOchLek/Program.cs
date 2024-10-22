@@ -10,7 +10,7 @@ internal class Program
 
 
 
-
+        Console.WriteLine("Samis branch");
 
 
         Console.WriteLine("Pull = hämta, Push = skicka in, fetch = 'kolla om det finns något att hämta'");
