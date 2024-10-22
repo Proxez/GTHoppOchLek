@@ -34,7 +34,7 @@ internal class Program
     }
     static string GinOchTonic()
     {
-        Console.WriteLine("Vilken är den bästa gin sorten?");
+        Console.WriteLine("Vilken är den bästa gin sorten?");        
         return gin = Console.ReadLine();
     }
     static void GinOchLek()
